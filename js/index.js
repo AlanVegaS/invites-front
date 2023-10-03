@@ -4,7 +4,7 @@ const guestsInput = document.getElementById('guests')
 
 familyForm.addEventListener('submit', async e => {
     e.preventDefault()
-    await fetch('http://localhost:5000/send-message', {
+    await fetch('https://node-test.fly.dev/send-message', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

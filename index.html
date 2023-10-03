@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="styles/main.css">
+
 <body>
     <form action="" method="post" id="form-family">
-        <label for="family">Familia</label>
-        <input type="text" name="family" id="family">
-        <label for="guests">Número de boletos</label>
-        <input type="text" name="guests" id="guests">
-        <input type="submit" value="Registrar familia">
-    </form> 
+        <div id="family-group" class="group">
+            <label for="family">Familia</label>
+            <input type="text" name="family" id="family">
+        </div>
+        <div id="guest-group" class="group">
+            <label for="guests">Número de boletos</label>
+            <input type="text" name="guests" id="guests">
+        </div>
+        <div id="submit-group" class="group">
+            <input type="submit" value="Registrar familia">
+        </div>
+    </form>
 </body>
 <script src="./js/index.js"></script>
+
 </html>
